@@ -55,9 +55,15 @@ function Header() {
                     </div>
                 </div>
 
+                {/* comment */}
                 {/* right hand side where i put the profile icons/modals */}
-                <HomeIcon className="h-10 w-10" />
-
+                <div className="flex items-center justify-end space-x-4">
+                    {/* space-x-4 :: space out some content on the children */}
+                    <HomeIcon className="h-10 w-10" />
+                    {/* md:hidden to hide the menu icon for medium screen */}
+                    <MenuIcon className="h-6 md:hidden cursor-pointer"/>
+                    <PaperAirplaneIcon className="h-10 w-10" />
+                </div>
             </div>
         </div>
     )
