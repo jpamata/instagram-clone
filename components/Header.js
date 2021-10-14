@@ -12,9 +12,12 @@ import { HomeIcon } from "@heroicons/react/solid";
 function Header() {
     return (
         <div>
+            {/* comment*/}
             {/* flex justify-between :: so that children will have equal space between them*/}
-            
-            <div className="flex justify-between max-w-6xl">
+            {/* mx-5 :: margin so it doesnt touch the sides*/}
+            {/* lg:mx-auto :: on  large breakpoint, auto determine/apply a margin x of auto*/}
+            <div className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
+
                 {/* left hand side to put the instagram logo*/}
                 {/* tailwind is mobile first, so if i put in "hidden" for classname it'll hide the image on small screen, the lg:inline-grid is for it to appear on large screen*/}
                 <div className="relative hidden lg:inline-grid w-24 cursor-pointer">
