@@ -57,13 +57,13 @@ import Header from '../components/Header'
 
 for images, use image component as it compresses image
 
-```
+```javascript
 <Image/>
 ```
 
 needs config file containing the image domain though, which for example in this case i have it stored at https://johnamata.netlify.app/projects/instagram-clone/ig.webp so my next.config.js file is:
 
-```
+```javascript
 module.exports = {
     images: {
         domains: ["johnamata.netlify.app"],
