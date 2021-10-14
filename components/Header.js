@@ -1,4 +1,12 @@
 import Image from "next/image";
+import {
+    SearchIcon,
+    PlusCircleIcon,
+    UserGroupIcon,
+    HeartIcon,
+    PaperAirplaneIcon,
+    MenuIcon,
+} from "@heroicons/react/outline";
 function Header() {
     return (
         <div>
@@ -28,6 +36,9 @@ function Header() {
 
                 {/* middle where i put the search bar*/}
                 <div>
+                    {/* comment*/}
+                    {/* using heroicons from tailwindcss https://heroicons.com/ which need to be npm installed */}
+                    <SearchIcon className="h-5 w-5 text-gray-500"/> 
                     <input type="text" placeholder="search" />
                 </div>
                 {/* right hand side where i put the profiles/modals */}

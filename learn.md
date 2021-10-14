@@ -70,3 +70,13 @@ module.exports = {
     }
 }
 ```
+
+### errors
+
+got internal server error after npm installing heroicons and npm run dev kept on failing. just deleted the node_modules folder and installed with npm install but it failed. Then I did the following and it's working again, js is so weird:
+
+```
+yarn install
+yarn run start --tho this failed
+npm run dev
+```
