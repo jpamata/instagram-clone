@@ -7,6 +7,8 @@ import {
     PaperAirplaneIcon,
     MenuIcon,
 } from "@heroicons/react/outline";
+import { HomeIcon } from "@heroicons/react/solid";
+
 function Header() {
     return (
         <div>
@@ -49,7 +51,9 @@ function Header() {
                         <input className="bg-gray-50 block w-full pl-10 sm:text-sm border-gray-300 docus:ring-black focus:border-black rounded-md" type="text" placeholder="search" />
                     </div>
                 </div>
+
                 {/* right hand side where i put the profile icons/modals */}
+                <HomeIcon className="h-10 w-10" />
 
             </div>
         </div>
