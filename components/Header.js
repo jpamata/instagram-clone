@@ -35,19 +35,21 @@ function Header() {
                 </div>
 
                 {/* middle where i put the search bar*/}
-                {/* pointer-events-none :: so nothing wont happen to our pointer*/}
-                <div className="relative mt-1 p-3 rounded-md">
-                    {/* relative to position according to the container*/}
-                    <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
-                        {/* comment*/}
-                        {/* using heroicons from tailwindcss https://heroicons.com/ which need to be npm    installed */}
-                        <SearchIcon className="h-5 w-5 text-gray-500"/> 
+                <div className="max-w-xs">
+                    {/* pointer-events-none :: so nothing wont happen to our pointer*/}
+                    <div className="relative mt-1 p-3 rounded-md">
+                        {/* relative to position according to the container*/}
+                        <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
+                            {/* comment*/}
+                            {/* using heroicons from tailwindcss https://heroicons.com/ which need to be npm    installed */}
+                            <SearchIcon className="h-5 w-5 text-gray-500"/> 
+                        </div>
+                        {/* pl-10:: padding left of 10 so we can have the text cursor separated with search icon*/}
+                        {/* focus:border-black :: when we focus over it the border becomes black*/}
+                        <input className="bg-gray-50 block w-full pl-10 sm:text-sm border-gray-300 docus:ring-black focus:border-black rounded-md" type="text" placeholder="search" />
                     </div>
-                    {/* pl-10:: padding left of 10 so we can have the text cursor separated with search icon*/}
-                    {/* focus:border-black :: when we focus over it the border becomes black*/}
-                    <input className="bg-gray-50 block w-full pl-10 sm:text-sm border-gray-300 docus:ring-black focus:border-black rounded-md" type="text" placeholder="search" />
                 </div>
-                {/* right hand side where i put the profiles/modals */}
+                {/* right hand side where i put the profile icons/modals */}
 
             </div>
         </div>
