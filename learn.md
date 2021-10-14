@@ -53,10 +53,20 @@ then hitting enter/return will show up the path for you to import with, then i c
 import Header from '../components/Header'
 ```
 
-### components
+### image components
 
 for images, use image component as it compresses image
 
 ```
 <Image/>
+```
+
+needs config file containing the image domain though, which for example in this case i have it stored at https://johnamata.netlify.app/projects/instagram-clone/ig.webp so my next.config.js file is:
+
+```
+module.exports = {
+    images: {
+        domains: ["johnamata.netlify.app"],
+    }
+}
 ```
