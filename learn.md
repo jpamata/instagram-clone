@@ -80,3 +80,11 @@ yarn install
 yarn run start --tho this failed
 npm run dev
 ```
+
+### TAILWINDCSS FORMS
+
+from: https://github.com/tailwindlabs/tailwindcss-forms
+
+```
+yarn add @tailwindcss/forms
+```

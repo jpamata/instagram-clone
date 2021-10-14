@@ -45,7 +45,7 @@ function Header() {
                     </div>
                     {/* pl-10:: padding left of 10 so we can have the text cursor separated with search icon*/}
                     {/* focus:border-black :: when we focus over it the border becomes black*/}
-                    <input className="bg-gray-50 block w-full pl-10 sm:text-sm border-gray-300 docus:ring-black focus:border-black" type="text" placeholder="search" />
+                    <input className="bg-gray-50 block w-full pl-10 sm:text-sm border-gray-300 docus:ring-black focus:border-black rounded-md" type="text" placeholder="search" />
                 </div>
                 {/* right hand side where i put the profiles/modals */}
 
