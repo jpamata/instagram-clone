@@ -61,12 +61,12 @@ for images, use image component as it compresses image
 <Image/>
 ```
 
-needs config file containing the image domain though, which for example in this case i have it stored at https://johnamata.netlify.app/projects/instagram-clone/ig.webp so my next.config.js file is:
+needs config file containing the image domain though, which for example in this case i have it stored at https://johnamata.github.io/siteassets/instagram-clone/ig.webp so my next.config.js file is:
 
 ```javascript
 module.exports = {
     images: {
-        domains: ["johnamata.netlify.app"],
+        domains: ["johnamata.github.io"],
     }
 }
 ```
