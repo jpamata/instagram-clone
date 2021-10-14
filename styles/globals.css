@@ -1,0 +1,23 @@
+/* where i'll put CUSTOM CSS stuff */
+
+/* these basically just pulling in tailwind css classes like base classes, components classes, etc. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* now inject some custom utility classes to components above */
+
+@layer components{
+    .navBtn {
+        /*
+        hidden:: hidden first
+        h-6 :: height of 6
+        md:inline-flex :: on medium screen drop in the screen as an inline-flex
+        cursor-pointer :: have all cursor pointer
+        hover:scale-125 :: scale when we hover over it
+        transition-all :: have all transitions like resizing to have effect 
+        duration-150 :: duration of such transitions should be 150 millisecs 
+        ease-out :: to make transitions snappy*/
+        @apply hidden h-6 md:inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
+    }
+}
