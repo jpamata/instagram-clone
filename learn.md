@@ -52,3 +52,11 @@ then hitting enter/return will show up the path for you to import with, then i c
 ```javascript
 import Header from '../components/Header'
 ```
+
+### components
+
+for images, use image component as it compresses image
+
+```
+<Image/>
+```
