@@ -1,3 +1,5 @@
+import Stories from "./Stories"
+
 function Feed() {
     return (
         <main>
@@ -6,6 +8,10 @@ function Feed() {
             <section>
                 {/* section */}
                 {/* section - stories, posts */}
+
+                {/* stories */}
+                <Stories />
+                {/* posts */}
             </section>
             
             <section>
