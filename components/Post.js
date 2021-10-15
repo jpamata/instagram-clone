@@ -1,7 +1,29 @@
-function Post() {
+import {
+    BookmarkIcon,
+    ChatIcon,
+    DotsHorizontalIcon,
+    EmojiHappyIcon,
+    HeartIcon,
+    PaperAirplaneIcon,
+} from "@heroicons/react/outline";
+import { HeartIcon as HeartIconFilled } from "@heroicons/react/solid";
+
+function Post({id, username, userImg, img, caption}) {
     return (
-        <div>
-            <h1>sample post</h1>
+        <div className="bg-white my-7 border rounded-sm">
+            {/* random comment */}
+            {/* header */}
+            <div className="flex items-center p-5">
+                <img src={userImg} className="rounded-full h-12 w-12 object-contain border p-1 mr-3" alt=""/>
+                {/* flex-1 to take up the room/take up as much as room as it can */}
+                <p className="flex-1 font-bold">{username}</p>
+                <DotsHorizontalIcon className="h-5"/> 
+            </div>
+            {/* img */}
+            {/* buttons */}
+            {/* caption */}
+            {/* comments */}
+            {/* input */}
         </div>
     )
 }
