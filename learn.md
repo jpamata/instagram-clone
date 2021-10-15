@@ -73,13 +73,16 @@ module.exports = {
 
 ### errors
 
-got internal server error after npm installing heroicons and npm run dev kept on failing. just deleted the node_modules folder and installed with npm install but it failed. Then I did the following and it's working again, js is so weird:
+got internal server error after npm installing heroicons and others like npm installing faker.js with "npm install faker"
+
+stopping the server and running "npm run dev" kept on failing after installing them. so i just deleted the node_modules folder and installed with npm install but it failed. Then I did the following and it's working again
 
 ```
 yarn install
-yarn run start --tho this failed
 npm run dev
 ```
+
+js is so weird
 
 ### TAILWINDCSS FORMS
 
