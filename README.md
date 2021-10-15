@@ -5,6 +5,7 @@
 default server starts at http://localhost:3000
 
 ```
+npm install
 npm run dev
 ```
 
