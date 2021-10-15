@@ -25,7 +25,12 @@ function Stories() {
     }, []);
 
     return (
-        <div>
+        <div className="flex space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-x-scroll">
+            {/* 
+            flex :: anytime we do flex, elements goes to row by behaviour 
+            overflow-x-scroll :: when it overflows, we want it to be a scrollable container
+            */}
+
             {/* anytime we use maps in any list inside react, we need to use a key as when reactJS does rerendering logic it has a list of elements in the screen. if we dont give a key, it wont know if we added an item to the end of the list so it rerenders everything. so having a key just haves it render the newest element 
             
             key={profile.id} :: passing attributes to story component, anytime we do it we call it props
