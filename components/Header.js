@@ -62,7 +62,14 @@ function Header() {
                     <HomeIcon className="navBtn" />
                     {/* md:hidden to hide the menu icon for medium screen */}
                     <MenuIcon className="h-6 md:hidden cursor-pointer"/>
-                    <PaperAirplaneIcon className="navBtn" />
+
+                    <div className="relative navBtn">
+                        {/* rotate-45 :: rotates icon by 45 degrees */}
+                        <PaperAirplaneIcon className="navBtn rotate-45" />
+                        {/* code for number of new messages notification above the paperairplane icon*/}
+                        <div className="absolute -top1-1 -right-2 text-xs w-5 h-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse text-white">3</div>
+                    </div>
+
                     <PlusCircleIcon className="navBtn" />
                     <UserGroupIcon className="navBtn" />
                     <HeartIcon className="navBtn" />
