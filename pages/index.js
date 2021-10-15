@@ -8,9 +8,10 @@ export default function Home() {
         <title>instagram-clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    {/*Header*/}
+    {/*Header -- contains search, profile, messaging, icons*/}
     <Header/>
-    {/*Feed*/}
+    {/*Feed -- contains post and sidebar for suggestions*/}
+    <Feed />
     {/*Modal*/}
     </div>
   )
