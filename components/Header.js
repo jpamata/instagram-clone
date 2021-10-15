@@ -11,7 +11,12 @@ import { HomeIcon } from "@heroicons/react/solid";
 
 function Header() {
     return (
-        <div>
+        <div className="shadow-sm border-b bg-white sticky top-0 z-50">
+            {/* shadow-sm :: creates a shadow/line separating the header and others*/}
+            {/* bg-white :: explicitly saying it as it's colour as of now is just based on the background*/}
+            {/* sticky top-0 :: to have it stick at the top*/}
+            {/* z-50 :: higher z index to get it at top */}
+
             {/* comment*/}
             {/* flex justify-between :: so that children will have equal space between them*/}
             {/* mx-5 :: margin so it doesnt touch the sides*/}
