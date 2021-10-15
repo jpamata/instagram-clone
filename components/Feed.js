@@ -1,8 +1,18 @@
 function Feed() {
     return (
-        <div>
+        <main>
+            {/* comment */}
             
-        </div>
+            <section>
+                {/* section */}
+                {/* section - stories, posts */}
+            </section>
+            
+            <section>
+                {/* section */}
+                {/* section - miniprofile, suggestions */}    
+            </section>
+        </main>
     )
 }
 
